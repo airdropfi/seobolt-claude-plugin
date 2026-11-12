@@ -1,0 +1,18 @@
+{
+  "name": "seobolt-plugins",
+  "description": "Claude Code plugins from SEOBolt (seobolt.app).",
+  "owner": {
+    "name": "SEOBolt",
+    "email": "support@seobolt.app",
+    "url": "https://seobolt.app"
+  },
+  "plugins": [
+    {
+      "name": "seobolt",
+      "source": "./plugins/seobolt",
+      "description": "Audit a site for Google and AI search, get a prioritized fix plan with code snippets, apply approved fixes in your repo and re-crawl. Uses your own SEOBolt account.",
+      "category": "productivity",
+      "tags": ["seo", "audit", "core-web-vitals", "mcp"]
+    }
+  ]
+}

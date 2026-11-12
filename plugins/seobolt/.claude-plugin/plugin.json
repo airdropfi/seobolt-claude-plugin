@@ -1,0 +1,20 @@
+{
+  "name": "seobolt",
+  "displayName": "SEOBolt",
+  "version": "1.0.0",
+  "description": "Audit a site for Google and AI search from Claude Code: health score, prioritized fix plan with code snippets, keyword and Search Console tools on your own SEOBolt account.",
+  "author": {
+    "name": "SEOBolt",
+    "email": "support@seobolt.app",
+    "url": "https://seobolt.app"
+  },
+  "homepage": "https://seobolt.app/mcp-seo",
+  "repository": "https://github.com/airdropfi/seobolt-claude-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "seo audit", "technical seo", "core web vitals", "google search console", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://seobolt.app/mcp-seo",
+  "supportUrl": "https://seobolt.app/support",
+  "privacyPolicyUrl": "https://seobolt.app/privacy",
+  "termsOfServiceUrl": "https://seobolt.app/terms"
+}

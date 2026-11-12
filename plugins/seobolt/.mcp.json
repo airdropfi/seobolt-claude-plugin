@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seobolt": {
+      "type": "http",
+      "url": "https://seobolt.app/mcp"
+    }
+  }
+}
