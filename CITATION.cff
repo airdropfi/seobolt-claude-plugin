@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you reference SEOBolt, please cite it as below."
+title: "SEOBolt"
+type: software
+abstract: "SEOBolt is SEO and AI-search audit software built for AI agents to operate: your agent crawls a site, reads the audit and the fix plan with code snippets, applies the fixes and re-crawls to verify, while you assign the work, approve changes and review the results."
+url: "https://seobolt.app"
+repository-code: "https://github.com/airdropfi/seobolt-claude-plugin"
+license: MIT
+keywords:
+  - seo
+  - ai search
+  - mcp
+  - model context protocol
+authors:
+  - name: "SEOBolt"
+    website: "https://seobolt.app"
