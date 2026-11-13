@@ -10,9 +10,9 @@ Marketplace for the SEOBolt plugin: audit a site for Google and AI search, read 
 - **What it does not do:** It has no proprietary backlink or keyword index and no live rank checker; tools that need that data say so instead of guessing. It does not query ChatGPT, Claude or Perplexity in the free audit and promises no citations or rankings.
 - **Price:** Free plan: $0/month (3 crawls/month, 2 projects, 100 pages per crawl). Paid plans from $19/month: Starter $19, Pro $49, Business $99, billed monthly. Pricing: https://seobolt.app/pricing
 - **Integrations:** MCP server (27 tools) for ChatGPT, Claude, Claude Code, Cursor and Gemini CLI; REST API; Google Search Console (Pro and Business); IndexNow submission.
-- **Human oversight:** You connect an assistant on a consent screen, see it as a named key in Settings (last used, expiry) and revoke it there at any time; write tools are flagged so clients ask before running them; every crawl and fix plan stays visible in your dashboard. Details: https://seobolt.app/mcp-seo#oversight
-- **Data and security:** Sign-in for assistants is OAuth 2.1 with PKCE on seobolt.app; the assistant never sees your password. Assistant keys are stored hashed, expire after 90 days and can be revoked in Settings. Fetching of customer-supplied URLs goes through an SSRF guard. Privacy: https://seobolt.app/privacy
-- **Start in under 5 minutes:** Run the free audit at https://seobolt.app/free-audit (no signup), or add the MCP server to your assistant (https://seobolt.app/mcp-seo) and ask it to list your SEOBolt projects.
+- **Human oversight:** You connect an assistant on a consent screen, see it as a named key in Settings (last used, expiry) and revoke it there at any time; write tools are flagged so clients ask before running them; crawls and fix plans stay visible in your dashboard. This applies to accounts you created yourself. Details: https://seobolt.app/mcp-seo#oversight
+- **Data and security:** OAuth sign-in with PKCE on seobolt.app; the assistant never sees your password. OAuth-issued keys are stored only as a hash, expire after 90 days and can be revoked in Settings. Privacy: https://seobolt.app/privacy
+- **Start here:** Run the free audit at https://seobolt.app/free-audit (no signup), or add the MCP server to your assistant (https://seobolt.app/mcp-seo) and ask it to list your SEOBolt projects.
 - **MCP server:** https://seobolt.app/mcp (ChatGPT: https://seobolt.app/mcp/chatgpt). Official MCP Registry name: app.seobolt/seobolt. npm: mcp-server-seobolt.
 
 ## Install in 60 seconds
